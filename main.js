@@ -24,8 +24,6 @@ import DefaultTheme from './themes/DefaultTheme';
 
 import Secrets from './constants/Secrets';
 
-Store.instance = configureStore()
-
 import BackgroundGeoLocation from "./services/BackgroundGeoLocation";
 
 export class App extends React.Component {
@@ -36,26 +34,19 @@ export class App extends React.Component {
 
   componentWillMount() {
     try {
-      this._loadAsyncJobs();
-      this._getLocationAsync();
-      BackgroundGeoLocation.mount()
+      BackgroundGeoLocation.mount();
+      this._loadAsyncJobs( ()=> {
+        this.setState({ appIsReady: true });
+      });
     } catch (e) {
-      console.warn('There was an error caching assets (see: main.js), perhaps due to a ', e);
-    } finally {
-      this.setState({ appIsReady: true });
+      console.warn('Error on load AsyncJobs ', e);
     }
   }
 
-  // componentWillUnmount() {
-  //   try {
-  //     BackgroundGeoLocation.unmount()
-  //   } catch (e) {
-  //     console.warn("Background Geolocation Error: ", e)
-  //   }
-  // }
 
   render() {
     if(this.state.appIsReady){
+      Store.instance = configureStore()
       return (
         <StyleProvider style={getTheme(DefaultTheme)}>
           <Provider store={Store.instance}>
@@ -81,26 +72,13 @@ export class App extends React.Component {
     }
   }
 
-  async _loadAsyncJobs() {
-    try {
-      await AsyncStorage.getItem("@HermesDelivery:key", (err, response)=>{
-        Secrets.key = response
-      });
-    } catch (e) {
-      console.warn(
-        'There was an error caching assets (see: main.js), perhaps due to a ' +
-          'network timeout, so we skipped caching. Reload the app to try again.'
-      );
-    }
+  async _loadAsyncJobs(onComplete) {
+    await AsyncStorage.getItem("@HermesDelivery:key", (err, response) => {
+      Secrets.key = response
+    });
+    // on complete All Tasks
+    onComplete()
   }
-
-  _getLocationAsync = async () => {
-    await navigator.geolocation.getCurrentPosition((location)=>{
-      console.log(`${location.coords.latitude}, ${location.coords.longitude}`)
-    }, (err)=>{
-      console.warning(err)
-    }, { enableHighAccuracy: true });
-  };
 }
 
 const styles = {

@@ -1,23 +1,45 @@
+import { AsyncStorage } from 'react-native';
 import BackgroundGeolocation from "react-native-background-geolocation";
+
+import axios from "axios";
 
 let moment = require("moment");
 require("moment/locale/pt-br");
 
 const onLocation = (location) => {
-  console.log(location.coords.latitude, location.coords.longitude);
+  // Save Location on Server
+  AsyncStorage.getItem("@HermesDelivery:key", (err, response)=>{
+    // If has user
+    if(!response){
+      return false
+    }
+
+    var baseurl = "http://hermesdelivery.herokuapp.com/api/v1/agents/location/access_key/" + response
+    var data = { latitude: location.coords.latitude, longitude: location.coords.longitude }
+    axios.post(baseurl, data).then(()=>{
+      console.log("Location Save")
+    }, (err)=>{
+      console.warn("Location not Save: ", err)
+    })
+  })
   console.log(moment().format("LTS"));
+  console.log(location.coords.latitude, location.coords.longitude);
 }
+
 const onError = (error) => {
   var type = error.type;
   var code = error.code;
   alert(type + " Error: " + code);
 }
+
 const onActivityChange = (activityName) => {
   console.log('- Current motion activity: ', activityName);  // eg: 'on_foot', 'still', 'in_vehicle'
 }
+
 const onProviderChange = (provider) => {
   console.log('- Location provider changed: ', provider.enabled);
 }
+
 const onMotionChange = (location) => {
   console.log('- [js]motionchanged: ', JSON.stringify(location));
 }
@@ -35,9 +57,9 @@ export default {
     BackgroundGeolocation.configure({
       // Geolocation Config
       desiredAccuracy: 10,
-      stationaryRadius: 25,
+      stationaryRadius: 10,
       distanceFilter: 10,
-      timeout: 1,
+      timeout: 5,
       foregroundService: false,
     }, function(state) {
       console.log("- BackgroundGeolocation is configured and ready: ", state.enabled);
