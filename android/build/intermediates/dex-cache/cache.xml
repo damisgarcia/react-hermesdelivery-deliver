@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/tslocationmanager/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="40c98ee42befdb1d7aad08263a882624974cee4e">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-tslocationmanager_f8663f1d6a4d2aa2bf1d802304b243cb043e1dae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_57665106747ac23342755b423ca5d2299cd0052a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_1dbec5b532671389b6b327e8af486a76a34b13cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_1406f3d4603654639dde0065a7f4825267477db0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="139535a69a4239db087de9bab0bee568bf8e0b70">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.21_fc65ac57af4c4da6ef3f8718ea6513c7aec62c3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_d5c276681b040e9087b070adf540bcf93961424e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_9fb1664ac91bae7216a5ae6ef61361cd703d53fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/reacthermesdelivery/react-native-background-geolocation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="814e7113a43a153c362e9d22265f3eee4681f15c">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/reacthermesdelivery-react-native-background-geolocation-unspecified_59a4d8599655b5248b2eb27f0d43b35d2f8032c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_5b248bd89c9f5f1226bbd863a89e26109c0e00b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-core/1.1.1-6/93117015ae639e6482e4e1ad5f988c3f61d09fe0/logback-android-core-1.1.1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="93117015ae639e6482e4e1ad5f988c3f61d09fe0">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/logback-android-core-1.1.1-6_5eccd51be81040f461d4331185edfb911701dd68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_5d3459d19a2537aa66f5f264da390a0e6e85d16e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_8d94e459c9c4901a4a30cf2cfd1c6440381c719d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.6_8daa2a5490e8b38312ed7ef3fcef13f3aa435355.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_5195b3d26397e54c0c1e240fdd9071ff4c21f9b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_b0b214b15cd0d4bf45cf3f547ea3f50821ed7565.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.github.tony19/apktool-lib/1.4.4-3/1d0125bf578cb30dd192496db56c2d937495248a/apktool-lib-1.4.4-3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1d0125bf578cb30dd192496db56c2d937495248a">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/apktool-lib-1.4.4-3_687404d38758bf88e8dbd3bcc948ea3f88477d2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-classic/1.1.1-6/614c66c9ece69eef48c65a8558de4fd7266d9f69/logback-android-classic-1.1.1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="614c66c9ece69eef48c65a8558de4fd7266d9f69">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/logback-android-classic-1.1.1-6_2d4e6738996b94c86752b6f97aaf795452b0b67d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_7a274cecef62821c80614e118caaf5f0553bc38d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="962b06c207e808c0557ffd6163ac584025a96021">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.42.3_e0b34694c2858e29b8fe7065584096ce1ca87132.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_a68785d8caad19420f95028b084f892f6234c952.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_30b4e54d80dd4059232c73a3d92e99ea17ff4705.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_22942143dd1df5ee477e1b09e5526a7cfcdbaa56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_00a95fba78e409d4f0ac412362237819aa33e683.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_2be9e69e106cd5fe76f617e06459680e22a18dcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.6_b85c3859690abc3598f51da3453289d0b53c0811.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_c7b24cdfd195fddbdcbe5a54d518521eece5c020.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_a07948fd21b7ec58ce9a5adc9d6514dcd089249e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_91280c6c8d5f6644317c43079f2dc2e9f612390b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_448111d6b4e7a91c3f720c577d9fe5f463789009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_c9c3f351e499c24c49b062813f634782fbd177ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_6bc1e59e20cb7a9b1117b2aa507caee0b0ab032a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_81c9828bebc06a689b683657010e9be46e0e6d2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.6_76327ae75ead3d5f06680d2d49223f0f3c5f0324.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_4acf08374a0b0b62d1a86b525f2862f922700686.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_7fbc09c8bb2e948afb699302981f82525230f4a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_d3c6c5cd849a459046875d07303264ebdbacf02d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_a34a8052b01e5a32a97eeceda702898e97256394.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_dd4bb81910c6e87794ab3b6f54302ccea6cd20f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7979972576b6dbb1688052e42e5199abb54f81ba">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-10.2.6_7cc30b6e34188c9b5acf2eeb3a8fbd249dcf7f43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/home/damisgarcia/react-laboratory/my-project/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_f3310bff8c93dc8f19bd3f24f71c55b69cbcedfa.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "sdkVersion": "17.0.0",
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    }
+  },
+  "name": "reacthermesdelivery",
+  "displayName": "react hermesdelivery"
+}
