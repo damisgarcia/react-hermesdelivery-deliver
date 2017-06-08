@@ -13,18 +13,18 @@ import {
 
 import { Provider } from 'react-redux';
 
-import Store from './constants/Store';
-import configureStore from './constants/ConfigureStore';
+import Store from './src/constants/Store';
+import configureStore from './src/constants/ConfigureStore';
 
-import AppWithNavigationState from './screens/RootNavigation';
+import AppWithNavigationState from './src/screens/RootNavigation';
 
 import { StyleProvider, getTheme } from 'native-base';
-import Colors from './themes/Colors';
-import DefaultTheme from './themes/DefaultTheme';
+import Colors from './src/themes/Colors';
+import DefaultTheme from './src/themes/DefaultTheme';
 
-import Secrets from './constants/Secrets';
+import Secrets from './src/constants/Secrets';
 
-import BackgroundGeoLocation from "./services/BackgroundGeoLocation";
+import BackgroundGeoLocation from "./src/services/BackgroundGeoLocation";
 
 export class App extends React.Component {
 
