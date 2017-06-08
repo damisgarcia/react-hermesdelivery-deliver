@@ -1,5 +1,5 @@
 import React from 'react';
-import { ActivityIndicator, Alert, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, Text, View, RefreshControl } from 'react-native';
 import {
   Container,
   Content,
@@ -14,6 +14,7 @@ import {
   ListItem,
 } from 'native-base';
 
+import Colors from "../themes/Colors";
 import Helpers from "../constants/Helpers";
 
 export default class HomeScreen extends React.Component {
@@ -24,10 +25,17 @@ export default class HomeScreen extends React.Component {
 
   render() {
     let { state, navigation } = this.props
-    if(this.props.state.orders.data.length){
+    if(!this.props.state.orders.isRefreshing){
       return(
         <Container>
-          <Content>
+          <Content refreshControl={
+            <RefreshControl
+              title="Aguarde..."
+              tintColor={ Colors.brandPrimary }
+              refreshing={this.props.state.orders.isRefreshing}
+              onRefresh={ _=> this.props.actions.fetchOrders() }
+            />
+            }>
             <View style={styles.container}>
               <List dataArray={this.props.state.orders.data} renderRow={(order)=>(
                   <ListItem button onPress={ _=> navigation.navigate('Order', { order: order }) }>
@@ -50,7 +58,7 @@ export default class HomeScreen extends React.Component {
           <Content>
             <View style={styles.hero}>
               <ActivityIndicator
-                animating={!this.props.state.orders.data.length}
+                animating={this.props.state.orders.isRefreshing}
                 style={[styles.centering, {height: 80}]}
                 size="large"
                 />
