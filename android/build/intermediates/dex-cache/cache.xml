@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jar="/home/damisgarcia/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_94bd47713be3f294cbaa44de299884808575d57f.jar" />
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_bb1958520f9d84ffdcc1244f00a2314a30d432f9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -21,12 +21,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.0.0-alpha1_e2ce8ed9a06940d886bfcd1c1f0ed68ef4da8aca.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.6/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
         <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.6_744220389b73b7a0e7846526008c5657ef709482.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.0.0-alpha1_0f6bd5ff5bd764b8ff22c97c8c2ead322f8a6aa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.0.0-alpha1_f8f2963ace74cb59e0267f937d2fab0d4c59300d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,12 +75,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/tslocationmanager/jars/classes.jar"
+        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/reacthermesdelivery/react-native-mauron85-background-geolocation/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="40c98ee42befdb1d7aad08263a882624974cee4e">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-tslocationmanager_e78f7ad96c11f28eaa34ab91b91407476df0539d.jar" />
+        sha1="e47daa21fe74af04e6523a3450e590c7f787459a">
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/reacthermesdelivery-react-native-mauron85-background-geolocation-unspecified_8f8aa433f604193d89fdd7510c4f9798556d83e9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,21 +102,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_8382180eaa9ffd373f1ddb7051badd0f5d37323e.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/reacthermesdelivery/react-native-background-geolocation/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="814e7113a43a153c362e9d22265f3eee4681f15c">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/reacthermesdelivery-react-native-background-geolocation-unspecified_d6cfa53a65f393f5c55752d5ce5d785739a1b66f.jar" />
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/release/reacthermesdelivery-react-native-background-geolocation-unspecified_d6cfa53a65f393f5c55752d5ce5d785739a1b66f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -99,6 +117,15 @@
         revision="23.0.1"
         sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
         <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_25bbf8402c62e9445a2ee56892673470bcac2f59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.0.0-alpha1_6fdf3fb91d467857d6ec6d01205ab7a2ebf8ef07.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,15 +156,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_7a274cecef62821c80614e118caaf5f0553bc38d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -147,30 +165,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_67b770d85cd0a0962fd80d2818d3211614ad1df3.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/damisgarcia/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
         <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_22942143dd1df5ee477e1b09e5526a7cfcdbaa56.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/damisgarcia/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_00a95fba78e409d4f0ac412362237819aa33e683.jar" />
     </item>
     <item
         is-multidex="false"
@@ -237,24 +237,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_dee4a1065139e16444f58482253c87f42100af8c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_c96b1daf21b7bbcdf8c7dec59395c3a9b92197ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/damisgarcia/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
         jumboMode="false"
         optimize="true"
@@ -288,6 +270,15 @@
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
         <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_7fbc09c8bb2e948afb699302981f82525230f4a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.0.0-alpha1_7844a4da4c4988cde284a8a95b1ac87480d06764.jar" />
     </item>
     <item
         is-multidex="false"
@@ -336,12 +327,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_40bb064177dd219efaf989c54db32183b512a905.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.0.0-alpha1_f73580832c11434f3de8e297e5ca08780a9d259e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -351,15 +342,6 @@
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_2020b05bba89fd52e0a9435634dae59ab36455b4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/home/damisgarcia/react-laboratory/react-hermesdelivery-for-deliver/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_ff7e197f95885ff5db8c7fde9b70db6bf30f1be8.jar" />
     </item>
 
 </items>

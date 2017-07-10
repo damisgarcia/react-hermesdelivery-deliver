@@ -1,5 +1,7 @@
 import { AsyncStorage } from 'react-native';
-import BackgroundGeolocation from "react-native-background-geolocation";
+import BackgroundGeolocation from 'react-native-mauron85-background-geolocation';
+// import BackgroundGeolocation from "react-native-background-geolocation";
+
 
 import axios from "axios";
 
@@ -7,23 +9,23 @@ let moment = require("moment");
 require("moment/locale/pt-br");
 
 const onLocation = (location) => {
-  // Save Location on Server
+  // // Save Location on Server
   AsyncStorage.getItem("@HermesDelivery:key", (err, response)=>{
+    console.log(moment().format("LTS"));
+    console.log(location.latitude, location.longitude);
     // If has user
     if(!response){
       return false
     }
 
     var baseurl = "http://hermesdelivery.herokuapp.com/api/v1/agents/location/access_key/" + response
-    var data = { latitude: location.coords.latitude, longitude: location.coords.longitude }
+    var data = { latitude: location.latitude, longitude: location.longitude }
     axios.post(baseurl, data).then(()=>{
       console.log("Location Save")
     }, (err)=>{
       console.warn("Location not Save: ", err)
     })
   })
-  console.log(moment().format("LTS"));
-  console.log(location.coords.latitude, location.coords.longitude);
 }
 
 const onError = (error) => {

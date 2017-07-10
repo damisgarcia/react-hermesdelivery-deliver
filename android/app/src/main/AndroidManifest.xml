@@ -29,8 +29,6 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-
-      <service android:name=".services.HelloWorldTask" android:enabled="true" android:label="HelloWorldTask" />
     </application>
 
 </manifest>

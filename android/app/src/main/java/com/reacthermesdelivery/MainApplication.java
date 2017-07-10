@@ -3,7 +3,7 @@ package com.reacthermesdelivery;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.transistorsoft.rnbackgroundgeolocation.RNBackgroundGeolocation;
+import com.marianhello.react.BackgroundGeolocationPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -24,7 +24,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNBackgroundGeolocation()
+            new BackgroundGeolocationPackage()
       );
     }
   };
